@@ -1,0 +1,13 @@
+# Exceptions for the SCA gate (BSN-007-05).
+#
+# This file is deliberately empty of exceptions. Every finding at or above the
+# gate threshold is currently fixed, so nothing needs silencing.
+#
+# If an entry is ever added here it must carry a reason explaining why the
+# vulnerable code cannot be reached from this application, or why no fix exists
+# yet. An exception without that is not an exception, it is a hidden finding.
+# Review them whenever dependencies change: one that has quietly become fixable
+# is a bug in this file.
+#
+# Background: BSN-007-01_DEPENDENCY_RECONCILIATION.md and
+#             BSN-007-03_FRONTEND_LANDLORD_DEPENDENCIES.md

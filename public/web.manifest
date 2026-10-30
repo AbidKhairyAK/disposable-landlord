@@ -1,0 +1,24 @@
+{
+  "name": "Prodemy",
+  "short_name": "Prodemy",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "id": "Prodemy",
+  "display": "standalone",
+  "description": "Prodemy by Pro Sigmaka",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "pro.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "pro.png",
+      "type": "image/png"
+    }
+  ]
+}

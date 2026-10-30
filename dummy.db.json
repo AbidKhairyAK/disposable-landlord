@@ -1,0 +1,417 @@
+{
+	"posts": [
+		{ "id": 1, "userId": 1, "title": "Non sit cupidatat enim.", "is_published": true },
+		{ "id": 2, "userId": 1, "title": "Nisi officia nostrud ipsum voluptate.", "is_published": false },
+		{ "id": 3, "userId": 2, "title": "Do duis eiusmod enim dolore et aliquip fugiat.", "is_published": true },
+		{ "id": 4, "userId": 1, "title": "Non sit ipsum enim.", "is_published": true },
+		{ "id": 5, "userId": 1, "title": "Non sit officia enim.", "is_published": true },
+		{ "id": 6, "userId": 2, "title": "Non sit aliquip enim.", "is_published": false },
+		{ "id": 7, "userId": 1, "title": "Non sit fugiat enim.", "is_published": true },
+		{ "id": 8, "userId": 1, "title": "Non sit voluptate enim.", "is_published": true },
+		{ "id": 9, "userId": 1, "title": "Non sit duis enim.", "is_published": true },
+		{ "id": 10, "userId": 2, "title": "Non sit Non enim.", "is_published": true },
+		{ "id": 11, "userId": 1, "title": "Non sit eiusmod enim.", "is_published": false },
+		{ "id": 12, "userId": 1, "title": "Non sit sit enim.", "is_published": true }
+	],
+	"users": [
+		{ "id": 1, "email": "bambang@gmail.com" },
+		{ "id": 2, "email": "siska@gmail.com" }
+	],
+	"learning": {
+		"course": {
+			"id": 1,
+			"instructor_id": 1,
+			"title": "Machine Learning with Python",
+			"caption": "An introduction to machine learning concepts.",
+			"description": "Learn machine learning algorithms, model evaluation, and hands-on projects in Python.",
+			"deleted_at": null,
+			"created_by": null,
+			"updated_by": null,
+			"created_at": "2025-02-05T11:51:47.000000Z",
+			"updated_at": "2025-02-05T11:51:47.000000Z",
+			"image": "https:\/\/lxp-production.sgp1.digitaloceanspaces.com\/Course\/model-1_media-4\/image.png",
+			"chapters": [
+				{
+					"id": 1,
+					"course_id": 1,
+					"title": "Chapter 1 for Machine Learning with Python",
+					"deleted_at": null,
+					"created_by": null,
+					"updated_by": null,
+					"created_at": "2025-02-05T11:51:50.000000Z",
+					"updated_at": "2025-02-05T11:51:50.000000Z",
+					"topics": [
+						{
+							"id": 9,
+							"chapter_id": 1,
+							"title": "Topic in Chapter 1 for Machine Learning with Python",
+							"sort_order": 1,
+							"type": "practice",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-05T11:51:50.000000Z",
+							"updated_at": "2025-03-13T02:39:18.000000Z",
+							"exp": 500,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 9,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 1,
+							"chapter_id": 1,
+							"title": "Topic 1 in Chapter 1 for Machine Learning with Python",
+							"sort_order": 2,
+							"type": "lesson",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-05T11:51:50.000000Z",
+							"updated_at": "2025-03-04T06:12:55.000000Z",
+							"exp": 100,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 1,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 2,
+							"chapter_id": 1,
+							"title": "Topic 2 in Chapter 1 for Machine Learning with Python",
+							"sort_order": 3,
+							"type": "lesson",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-05T11:51:50.000000Z",
+							"updated_at": "2025-03-13T02:39:33.000000Z",
+							"exp": 100,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 2,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 10,
+							"chapter_id": 1,
+							"title": "Practice sample 1",
+							"sort_order": 4,
+							"type": "practice",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-12T23:03:37.000000Z",
+							"updated_at": "2025-03-13T02:39:43.000000Z",
+							"exp": 200,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 10,
+										"user_id": 2
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"course_id": 1,
+					"title": "Chapter 2 for Machine Learning with Python",
+					"deleted_at": null,
+					"created_by": null,
+					"updated_by": null,
+					"created_at": "2025-02-05T11:51:50.000000Z",
+					"updated_at": "2025-02-05T11:51:50.000000Z",
+					"topics": [
+						{
+							"id": 3,
+							"chapter_id": 2,
+							"title": "Topic 1 in Chapter 2 for Machine Learning with Python",
+							"sort_order": 1,
+							"type": "lesson",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-05T11:51:50.000000Z",
+							"updated_at": "2025-03-13T02:39:54.000000Z",
+							"exp": 100,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 3,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 4,
+							"chapter_id": 2,
+							"title": "Topic 2 in Chapter 2 for Machine Learning with Python",
+							"sort_order": 2,
+							"type": "lesson",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-05T11:51:50.000000Z",
+							"updated_at": "2025-03-13T02:40:01.000000Z",
+							"exp": 100,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 4,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 11,
+							"chapter_id": 2,
+							"title": "Practice sample 2",
+							"sort_order": 2,
+							"type": "practice",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-12T23:05:06.000000Z",
+							"updated_at": "2025-03-13T02:40:11.000000Z",
+							"exp": 200,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 11,
+										"user_id": 2
+									}
+								}
+							]
+						},
+						{
+							"id": 12,
+							"chapter_id": 2,
+							"title": "Practice sample 3",
+							"sort_order": 2,
+							"type": "practice",
+							"deleted_at": null,
+							"created_by": null,
+							"updated_by": null,
+							"created_at": "2025-02-12T23:06:20.000000Z",
+							"updated_at": "2025-03-13T02:40:19.000000Z",
+							"exp": 200,
+							"topic_user_history": [
+								{
+									"id": 2,
+									"name": "Student Prodemy",
+									"email": "dummy.student@prosigmaka.com",
+									"email_verified_at": "2025-02-05T11:51:47.000000Z",
+									"deleted_at": null,
+									"created_at": "2025-02-05T11:51:47.000000Z",
+									"updated_at": "2025-02-05T11:51:47.000000Z",
+									"pivot": {
+										"topic_id": 12,
+										"user_id": 2
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"course_enrollment": [
+				{
+					"id": 1,
+					"user_id": 2,
+					"course_id": 1,
+					"deleted_at": null,
+					"created_by": null,
+					"updated_by": null,
+					"created_at": "2025-02-05T11:52:52.000000Z",
+					"updated_at": "2025-03-12T04:12:24.000000Z",
+					"is_completed": 1,
+					"completion_percentage": 100
+				}
+			],
+			"media": [
+				{
+					"id": 4,
+					"model_type": "App\\Models\\Course",
+					"model_id": 1,
+					"uuid": "cd7905cb-7c55-44a6-9e78-393a836107e0",
+					"collection_name": "image",
+					"name": "image",
+					"file_name": "image.png",
+					"mime_type": "image\/png",
+					"disk": "spaces",
+					"conversions_disk": "spaces",
+					"size": 1544206,
+					"manipulations": [],
+					"custom_properties": [],
+					"generated_conversions": [],
+					"responsive_images": [],
+					"order_column": 2,
+					"created_at": "2025-02-13T08:59:17.000000Z",
+					"updated_at": "2025-02-13T08:59:17.000000Z",
+					"original_url": "https:\/\/lxp-production.sgp1.digitaloceanspaces.com\/Course\/model-1_media-4\/image.png",
+					"preview_url": ""
+				}
+			]
+		},
+		"lesson": {
+			"id": 1,
+			"topic_id": 1,
+			"type": "article",
+			"deleted_at": null,
+			"created_by": null,
+			"updated_by": null,
+			"created_at": "2025-02-05T11:51:50.000000Z",
+			"updated_at": "2025-02-05T11:51:50.000000Z",
+			"article": {
+				"id": 1,
+				"lesson_id": 1,
+				"content": "<h3>Typography should be easy<\/h3> <p>So that's a header for you \u2014 with any luck if we've done our job correctly that will look pretty reasonable.<\/p> <p>Something a wise person once told me about typography is:<\/p> <blockquote><p>Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.<\/p><\/blockquote> <p>It's probably important that images look okay here by default as well:<\/p> <figure> <img src='https:\/\/images.unsplash.com\/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80' alt='' \/> <figcaption>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.<\/figcaption> <\/figure>",
+				"deleted_at": null,
+				"created_by": null,
+				"updated_by": null,
+				"created_at": "2025-02-05T11:51:50.000000Z",
+				"updated_at": "2025-02-05T11:51:50.000000Z"
+			}
+		},
+		"topic": {
+			"id": 1,
+			"chapter_id": 1,
+			"title": "Topic 1 in Chapter 1 for Machine Learning with Python",
+			"sort_order": 2,
+			"type": "lesson",
+			"deleted_at": null,
+			"created_by": null,
+			"updated_by": null,
+			"created_at": "2025-02-05T11:51:50.000000Z",
+			"updated_at": "2025-03-04T06:12:55.000000Z",
+			"exp": 100,
+			"topic_user_history": [
+				{
+					"id": 2,
+					"name": "Student Prodemy",
+					"email": "dummy.student@prosigmaka.com",
+					"email_verified_at": "2025-02-05T11:51:47.000000Z",
+					"deleted_at": null,
+					"created_at": "2025-02-05T11:51:47.000000Z",
+					"updated_at": "2025-02-05T11:51:47.000000Z",
+					"pivot": {
+						"topic_id": 1,
+						"user_id": 2
+					}
+				}
+			]
+		},
+		"prevTopic": {
+			"id": 9,
+			"chapter_id": 1,
+			"title": "Topic in Chapter 1 for Machine Learning with Python",
+			"sort_order": 1,
+			"type": "practice",
+			"deleted_at": null,
+			"created_by": null,
+			"updated_by": null,
+			"created_at": "2025-02-05T11:51:50.000000Z",
+			"updated_at": "2025-03-13T02:39:18.000000Z",
+			"exp": 500,
+			"chapter": {
+				"id": 1,
+				"course_id": 1,
+				"title": "Chapter 1 for Machine Learning with Python",
+				"deleted_at": null,
+				"created_by": null,
+				"updated_by": null,
+				"created_at": "2025-02-05T11:51:50.000000Z",
+				"updated_at": "2025-02-05T11:51:50.000000Z"
+			}
+		},
+		"nextTopic": {
+			"id": 2,
+			"chapter_id": 1,
+			"title": "Topic 2 in Chapter 1 for Machine Learning with Python",
+			"sort_order": 3,
+			"type": "lesson",
+			"deleted_at": null,
+			"created_by": null,
+			"updated_by": null,
+			"created_at": "2025-02-05T11:51:50.000000Z",
+			"updated_at": "2025-03-13T02:39:33.000000Z",
+			"exp": 100,
+			"chapter": {
+				"id": 1,
+				"course_id": 1,
+				"title": "Chapter 1 for Machine Learning with Python",
+				"deleted_at": null,
+				"created_by": null,
+				"updated_by": null,
+				"created_at": "2025-02-05T11:51:50.000000Z",
+				"updated_at": "2025-02-05T11:51:50.000000Z"
+			}
+		}
+	}
+}

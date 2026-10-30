@@ -1,0 +1,25 @@
+# Software Composition Analysis gate (BSN-007-05).
+#
+# Runs on every pull request so a new Critical or High blocks the merge, and
+# again on pushes to the deploy branches as a safety net for anything that
+# lands without a PR. Exceptions are not configured here — they live in
+# osv-scanner.toml, where each one carries a reason and is reviewed like any
+# other change.
+
+when:
+  - event: pull_request
+  - event: push
+    branch: [staging, main]
+
+steps:
+  scan:
+    image: ghcr.io/google/osv-scanner:v2.5.1
+    commands:
+      # osv-scanner exits 1 when it finds anything, which is not a failure of
+      # the scan. The gate step decides what counts as blocking.
+      - osv-scanner scan source --lockfile=package-lock.json --config=osv-scanner.toml --format=json > osv-report.json || true
+
+  gate:
+    image: node:22-alpine
+    commands:
+      - node scripts/sca-gate.mjs --input osv-report.json

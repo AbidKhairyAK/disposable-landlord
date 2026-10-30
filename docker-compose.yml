@@ -1,0 +1,11 @@
+services:
+  landlord:
+    image: lexa-landlord:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+      ssh:
+        - default
+    ports:
+      - "5174:5174"
+    restart: unless-stopped

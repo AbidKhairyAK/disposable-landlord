@@ -1,0 +1,17 @@
+when:
+  branch: main
+  event: push
+
+steps:
+  deploy:
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: vm_host_dev
+      username:
+        from_secret: vm_user
+      key:
+        from_secret: ssh_private_key
+      script:
+        - cd /opt/Alinnea/Alinnea-Landlord
+        - ./deploy.sh main

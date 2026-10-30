@@ -1,0 +1,57 @@
+{
+	"name": "alinnea-landlord",
+	"version": "26.09.28.001",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "run-p type-check \"build-only {@}\" --",
+		"preview": "vite preview",
+		"build-only": "vite build",
+		"type-check": "vue-tsc --build",
+		"sync-version": "node scripts/version-tools.mjs sync",
+		"verify-version": "node scripts/version-tools.mjs verify",
+		"sca": "node scripts/sca-gate.mjs"
+	},
+	"dependencies": {
+		"@alinnea/catalog": "github:Alinnea-BSN/lexa-catalog#v0.4.2",
+		"@primeuix/themes": "^1.0.0",
+		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/vite": "^4.0.15",
+		"@vueuse/core": "^13.1.0",
+		"axios": "^1.20.0",
+		"clsx": "^2.1.1",
+		"i": "^0.3.7",
+		"lucide-vue-next": "^0.483.0",
+		"pinia": "^3.0.1",
+		"primevue": "^4.3.2",
+		"swrv": "^1.1.0",
+		"tailwind-merge": "^3.0.2",
+		"tailwindcss": "^4.0.15",
+		"tailwindcss-primeui": "^0.5.1",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
+	},
+	"devDependencies": {
+		"@primevue/auto-import-resolver": "^4.3.2",
+		"@tsconfig/node22": "^22.0.0",
+		"@types/markdown-it": "^14.1.2",
+		"@types/node": "^22.13.9",
+		"@types/sortablejs": "^1.15.8",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/tsconfig": "^0.7.0",
+		"concurrently": "^9.1.2",
+		"json-server": "^1.0.0-beta.3",
+		"npm-run-all2": "^7.0.2",
+		"sass": "^1.86.0",
+		"typescript": "~5.8.0",
+		"unplugin-vue-components": "^28.4.1",
+		"vite": "^6.3.5",
+		"vite-plugin-vue-devtools": "^7.7.2",
+		"vue-tsc": "^2.2.8"
+	},
+	"allowScripts": {
+		"@parcel/watcher@2.5.1": true,
+		"esbuild@0.25.1": true
+	}
+}
